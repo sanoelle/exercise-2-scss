@@ -1,21 +1,26 @@
 // Main
 
 body{
-	background-color: $bg-color;
+	background-color: $bgcolor;
 }
 
 h1, h2{
 	color: $text;
 	text-align: center;
 	font-family: $lato;
-	text-transform: uppercase;
 }
 
 h1{
 	font-size: 30px;
 	letter-spacing: 5px;
+	font-weight: 700;
 }
 
+h2{
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
 
 
 
