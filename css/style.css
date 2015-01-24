@@ -47,3 +47,7 @@ h2 {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 2px; }
+
+/* line 25, /Users/Sarah/Desktop/exercise-2-scss/scss/components/main */
+.content {
+  margin: 15rem; }
