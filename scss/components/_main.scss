@@ -26,5 +26,27 @@ h2{
 	margin: 15rem;
 }
 
+.icon-content{
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.icon-umbrella,
+.icon-wheel,
+.icon-boat,
+.icon-kite{
+	color: #fff;
+	font-size: 36px;
+}
+
+.icon-umbrella:hover,
+.icon-wheel:hover,
+.icon-boat:hover,
+.icon-kite:hover{
+	color: #957200;
+	transition: 0.9s;
+	transform: rotateY(180deg);
+}
+
 
 

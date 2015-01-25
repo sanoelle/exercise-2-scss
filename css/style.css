@@ -51,3 +51,93 @@ h2 {
 /* line 25, /Users/Sarah/Desktop/exercise-2-scss/scss/components/main */
 .content {
   margin: 15rem; }
+
+/* line 29, /Users/Sarah/Desktop/exercise-2-scss/scss/components/main */
+.icon-content {
+  text-align: center;
+  margin-top: 1.5rem; }
+
+/* line 37, /Users/Sarah/Desktop/exercise-2-scss/scss/components/main */
+.icon-umbrella, .icon-wheel, .icon-boat, .icon-kite {
+  color: #fff;
+  font-size: 36px; }
+
+/* line 45, /Users/Sarah/Desktop/exercise-2-scss/scss/components/main */
+.icon-umbrella:hover, .icon-wheel:hover, .icon-boat:hover, .icon-kite:hover {
+  color: #957200;
+  transition: 0.9s;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg); }
+
+@font-face {
+  font-family: 'harbour';
+  src: url('../fonts/harbour.eot?45488753');
+  src: url('../fonts/harbour.eot?45488753#iefix') format('embedded-opentype'), url('../fonts/harbour.woff?45488753') format('woff'), url('../fonts/harbour.ttf?45488753') format('truetype'), url('../fonts/harbour.svg?45488753#harbour') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'harbour';
+    src: url('../font/harbour.svg?45488753#harbour') format('svg');
+  }
+}
+*/
+/* line 22, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "harbour";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 53, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-wheel:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 54, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-umbrella:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 55, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-kite:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 56, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-boat:before {
+  content: '\e803'; }
+
+/* '' */
+/* line 57, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-shoes:before {
+  content: '\e804'; }
+
+/* '' */
+/* line 58, /Users/Sarah/Desktop/exercise-2-scss/scss/components/fonts */
+.icon-anchor:before {
+  content: '\e805'; }
+
+/* '' */
